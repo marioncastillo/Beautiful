@@ -1,0 +1,124 @@
+@media (min-width: 535px) and (max-width: 824px){
+	.cabeza{
+		font-size: 200%;
+		color: #670230;
+	}
+	ul{
+		background-color: #670230;
+	}	
+}
+		
+@media (min-width: 200px) and (max-width: 534px){
+	.foto{
+		border-radius: 10%;
+		display: none;
+	}
+
+}
+
+@font-face{
+	font-family:"open";
+	src: url(../font/OpenSans-Regular.ttf);
+}
+@font-face{
+	font-family: "cardo";
+	src: url(../font/Cardo-Regular.ttf);
+}
+
+body{
+	margin: 0;
+}
+nav{
+	background-color: black(255, 0, 0, 0.1);
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	text-align: right;
+
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	display: inline-block;
+	color: white;
+	text-align:right;
+	padding: 26px;
+	text-decoration: none;
+
+}
+.icono{
+	width: 40%;
+}
+.icono:hover{
+	background-color:red;
+}
+
+.titulo1{
+	font-family: cardo;
+	margin-top: 50px;
+	margin-left: 2%;
+	text-align: left;
+	color: #FCFCFC;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 190%;
+	line-height: 151.65%;
+}
+
+
+
+.foto{
+	background-image: url(../img/foto.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+
+}
+
+.parrafo1{
+font-family: open;
+font-style: normal;
+font-weight: bolder;
+font-size: 28px;
+line-height: 160%;
+text-align: center;
+color: #EBEEFC;
+box-sizing: border-box;
+margin-top: 50%;
+padding:5%;
+}
+.btn_reservar{
+font-family: open;
+font-style: normal;
+font-size: 150%;
+background: #EBEEFC;
+border-radius: 5px;
+border: none;
+color: #670230;
+margin-top:55%;
+width:60%;
+padding: 1%;
+
+}
+.btn{
+	display: flex;
+	justify-content: center;
+}
+
+.btn_reservar:hover{
+	background-color:#777FA3;
+}
+.foto2{
+	width: 100%;
+}
+.servicios{
+	display: flex;
+	height:200px;
+	align-items: center;
+}
